@@ -8,7 +8,7 @@
 
 $ foremost Ocean.jpg
 
-and you get Missing Part Image
+and you get MissingPart.JPG Image
 
 you need to repair the QR code as result you will get the final QR Code (Original.jpg)
 
