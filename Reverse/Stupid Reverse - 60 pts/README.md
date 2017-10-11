@@ -8,17 +8,17 @@
 $ gdb -q ./down
 
 gdb-peda$ disas main
-![](1.jpg)
+![](1.JPG)
 gdb-peda$ b*0x0000000000400eb4
 gdb-peda$ disas check
-![](2.jpg)
+![](2.JPG)
 gdb-peda$ b*0x0000000000400d9a
 gdb-peda$ r
-![](3.jpg)
+![](3.JPG)
 gdb-peda$ s
 gdb-peda$ set $rax=1
 gdb-peda$ c
-![](4.jpg)
+![](4.JPG)
 
 
 and you get the flag 
