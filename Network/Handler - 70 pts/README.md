@@ -5,7 +5,7 @@
 * **Contact**: hello@faidamine.pw
 * **Description**: 
 
-1 - Open pcap2.pcap with wireshark, use "http.request or http.response" as display filter.  Save kotehok.html and the 3 javascripts files it needs: gibberish-aes.js, pbkdf2.js and sha1.js locally.  Select either line-based text data (for html) or media type (for js files).  You may want to save kotehok.html as index.html to save some efforts later" 
+1 - Open handler.pcap with wireshark, use "http.request or http.response" as display filter.  Save kotehok.html and the 3 javascripts files it needs: gibberish-aes.js, pbkdf2.js and sha1.js locally.  Select either line-based text data (for html) or media type (for js files).  You may want to save kotehok.html as index.html to save some efforts later" 
 
 2 - Serve the files locally using a web server, then point your web browser to the html page.  You should see a password input to enter the key and a textarea to enter plain text to be encrypted.
 
