@@ -7,7 +7,7 @@
 
 ![](1.JPG)
 <br>
-gdb-peda$ 0x00000000004010b8
+gdb-peda$ b * 0x00000000004010b8
 <br>
 gdb-peda$ r
 ![](2.JPG)
@@ -25,3 +25,4 @@ and we can see the username and the password
 
 # Other write-ups and resources
 
+http://pwny.logdown.com/posts/2907424
