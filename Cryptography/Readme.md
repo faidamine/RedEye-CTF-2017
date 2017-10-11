@@ -1,7 +1,7 @@
-#RedEye CTF 2017 Write-up
+# RedEye CTF 2017 Write-up
 
     Author: Soufiane BOUSSALI
-    Page: MRMugiwara
+    Page: https://github.com/MrMugiwara/RedEye-CTF-2017/
     Contact: hello@faidamine.pw
 
-Write-up
+# Write-up
