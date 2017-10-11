@@ -1,12 +1,14 @@
 ## Write-up
-
+# Task Files :<br>
+[flag.enc](flag.enc)<br>
+[id_rsa.pub](id_rsa.pub)<br>
 The challenge consists of an RSA public key and an RSA-encrypted flag file. We started by inspecting the RSA public key:
 
 >```bash
->$ cat flag.enc
+>$ cat [flag.enc](flag.enc)
 C6DKgZR8miTtrxaz9hQ230qK6BZ4xp4YdlmDYynTsl2X5h5qU5CWs+S+/i6nuM7Pn7KVvYOw2HAoZnB9JBImJVvRzWHBzGylLKZUcJe6ZbQL6v7BX8MvWI/WVO9PCGNoNoIz/Qy/z5Gh7PEjLx/3THbx87+cZc+8PwCnZk3YmEkl3Imzhxw/kYAd+B7pCJsiqyGNQSN77SgjLvaz5+5iuHPSF4zdUV0VjadSjhxaOK1J6HFgcJPdAMywy6LpOoUum+RHyveuYpxra0mwye4imLWftyptMFJPD84D3M+hPoLK8kPEzJvRPopmtHxGrMLbaDvH1QcZ8C7piWnY1LPkj3uUZtLHetqSqOhbYh6Kgeyat0VAkPuFrUAYq5mPijnE7lTngwCaWIoHZd9MNaxJt4I8JdUjC6rUtuJFY5fGzEGa2KfbUqFiHpir+zrFqmKOV2KZZuodTllSjmEEkIoZnwctf8KTTKEOyt7MU0F3V6Hc5OlrvPlQOyeylNU3vb5Z7AXmXOuggU4/rZvOCWAezWsAzddAtrhCUqqJr1NyACjmS+o7kdmalv03LxGz6780vQrnTgUDUfwqFtCXBlYYfAEtdRpiHBZyDMeZdIT+DzEq1D1cPPf08vE2GFtNwTGco6hcChTWLPU/YMz9Nr2snyDGXt5Re1z1SoJ58qwccTxSddbqgLk1EeKExf2HlypCSywedpsOJNgEO9x2X80xLercFMcKUMFPZTlbJelGBGiWMBPde
 >```
->$ cat id_rsa.pub
+>$ cat [id_rsa.pub](id_rsa.pub)
 
 -----BEGIN PUBLIC KEY-----<br>
 MIICUjANBgkqhkiG9w0BAQEFAAOCAj8AMIICOgKCAjEP////////////////////<br>
@@ -38,5 +40,5 @@ Which gives us:
 
 >```bash
 >$ python rsanne.py
-![alt tag](https://github.com/MrMugiwara/RedEye-CTF-2017/tree/master/Cryptography/RSABaby/flag.jpg)
+![alt tag](https://github.com/MrMugiwara/RedEye-CTF-2017/blob/master/Cryptography/RSABaby/flag.jpg)
 >```
